@@ -35,7 +35,7 @@ footer {
 
 h1 {
     color: darkblue;
-    border-bottom: 1rem;
+    border-bottom: 1px solid #777;
 }
 
 main img {
@@ -76,9 +76,7 @@ a:active {
 }
 
 aside {
-    width: 20rem;
     text-align: var(--text-center);
-    position: relative;
 }
 
 aside img {
