@@ -53,6 +53,24 @@ footer {
     margin: 0 auto;
 }
 
+.historySection {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-content: center;
+    column-gap: 2px;
+}
+
+.historySection img {
+    display: block;
+    padding: 20px;
+    width: 350px;
+    height: auto;
+}
+
+.historySection p {
+    text-align: left;
+}
+
 .hero {
     position: relative;
 }
