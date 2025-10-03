@@ -53,6 +53,18 @@ footer {
     margin: 0 auto;
 }
 
+.address {
+    color: var(--accent1-color);
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.address p{
+    width: 100%;
+    margin: 1px;
+    padding: 1px;
+}
+
 .historySection {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -133,6 +145,32 @@ article p {
     text-align: center;
 }
 
+.employees {
+    border: 1px solid var(--accent1-color);
+}
+
+.employeePics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.employeePics figure img {
+    padding: 15px;
+    width: 125px;
+    height: auto;
+}
+
+.employeePics figcaption {
+    text-align: center;
+}
+
+.mapandform {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    column-gap: 2px;
+}
+
 
 nav,
 p,
@@ -169,3 +207,57 @@ footer p {
     width: 50px;
     height: auto;
 }
+
+.map iframe{
+    width: 400px;
+    height: 400px;
+}
+
+form {
+  width: 410px;
+  height: 460px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  display: grid;
+  justify-content: center;
+}
+
+label, input, button, select, textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+}
+
+.purpose{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    align-items: center;
+}
+
+.answers {
+    display: grid;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
