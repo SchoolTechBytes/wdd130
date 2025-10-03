@@ -59,6 +59,17 @@ footer {
     text-align: center;
 }
 
+.address h1 {
+    position: static;
+    color: var(--accent1-color);
+    padding-bottom: 16px;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    padding: 1px;
+    opacity: 1;
+    background-color: #fff;
+}
 .address p{
     width: 100%;
     margin: 1px;
@@ -211,6 +222,7 @@ footer p {
 .map iframe{
     width: 400px;
     height: 400px;
+    border:0;
 }
 
 form {
